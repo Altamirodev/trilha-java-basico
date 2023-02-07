@@ -1,0 +1,25 @@
+ESTRUTURAS DE REPETIÇÃO
+
+TIPOS
+repetição com teste no início: WHILE
+repetição com teste no final: DO - WHILE
+repetição CONTADA: FOR
+(*) O comando "break" é utilizado para terminar de forma abrupta uma repetição
+
+OPERAÇÕES ARITMÉTICAS:
+
+- Somar K unidades ao valor da variável "numero", uso: numero  "+=k;" onde, k = numero desejado
+EX: numero +=2; significa que somarei 2 à variável "numero"
+
+- Subtrair K unidades ao valor da variável "numero" uso: numero  "-=k;" onde, k = numero desejado
+EX: numero -=2; significa que subtrairei 2 à variável "numero"
+
+- Multiplicar K unidades à variável "numero", uso: numero  "*=k;" onde, k = numero desejado
+EX: numero *=2; significa que multiplicarei 2 à variável "numero"
+
+- Dividir K unidades à variável "numero", uso: numero  "/=k;" onde, k = numero desejado
+EX: numero /=2; significa que Dividirei 2 à variável "numero"
+
+ARRAY:
+Objeto para armazenar sequencialmente dados do mesmo tipo.
+

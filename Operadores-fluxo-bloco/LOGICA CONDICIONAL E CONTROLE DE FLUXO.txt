@@ -1,0 +1,34 @@
+LOGICA CONDICIONAL E CONTROLE DE FLUXO
+
+doble - d
+short - h
+long - l
+byte - y
+
+todos são numéricos cabendo a comparação de grandezas (maior, menor igual) e igualdade (igual
+ou diferente)
+
+Operadores logicos não podem ser utilizados com números, só se for dentro de expressoes.
+&& = "e" = só 2 X V resulta em V
+|| = "ou"  =só 2 X F resultao em F
+^ = "xor" = 2 iguais dá F e 2 diferentes dá V
+! = "inverção"
+&, | e ~ NÃO são operadores lógicos. Apenas mexem com bits
+
+Controle de Fluxo:
+- SWITCH é para valores exatos (ÚNICA variável) e IF para valores booleanos
+- Evitar usar o "default" do Swift para casos genéricos
+- Reduzir o tamanho da "lógica estrutural" do IF para ficar fácil de entender e dar manutenção
+
+Blocos:
+Quando se tem apenas UMA LINHA DE EXECUÇÃO em um IF, não precisa abrir e fechar Chaves.
+
+
+exercicios: 1- + 15 < 20 = MENTIRA DEVE SER EXIBIDO
+
+TIPOS DE OPERADORES RELACIONAIS = IGUALDADE e MENOR
+
+como IF só tem uma linha as aspas são opcionais
+
+
+
