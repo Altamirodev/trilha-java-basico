@@ -1,9 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-
 import javax.swing.BoundedRangeModel;
-
-import java.util.Random;
 
 public class ArrayMulti {
     public static void main(String[] args) {
