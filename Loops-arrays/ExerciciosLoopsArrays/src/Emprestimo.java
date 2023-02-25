@@ -10,12 +10,14 @@ public class Emprestimo {
         if (parcelas > 0 | parcelas < 6) {
             taxa = 0.15;
             resultado = ((valorSolicitado * taxa) + valorSolicitado);
+            System.out.println("A taxa do empréstimo é de : " + taxa + "%");
             System.out.println("O valor final do emprestimo é de : " + resultado);
         }
 
         else if (parcelas > 5 | parcelas < 11) {
             taxa = 0.30;
             resultado = ((valorSolicitado * taxa) + valorSolicitado);
+            System.out.println("A taxa do empréstimo é de : " + taxa + "%");
             System.out.println("O valor final do emprestimo é de : " + resultado);
         } else {
             System.out.println("Número de parcelas inválido!");

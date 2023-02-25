@@ -19,7 +19,49 @@ public class Metodos {
         System.out.println("\n");
         // Emprestimo
 
-        Emprestimo.financiamento(5, 1000);
+        Emprestimo.financiamento(7, 1000);
+
+        // Área dos quadriláterios SEM RETURN
+        Quadrilateros.area(5d);
+        Quadrilateros.area(5d, 5d);
+        Quadrilateros.area(5d, 5d, 5d);
+        Quadrilateros.area(5f, 5f);
+
+        // Área dos quadriláterios com RETURN
+        System.out.println("Exercícios Return: ");
+        double areaQuadrado = QuadrilaterosReturn.area(5d);
+        System.out.println("A área do quadrado é: " + areaQuadrado);
+        double areaRetangulo = QuadrilaterosReturn.area(5d, 5d);
+        System.out.println("A área do Retângulo é: " + areaRetangulo);
+        double areaTrapezio = QuadrilaterosReturn.area(5d, 5d, 5d);
+        System.out.println("A área do Trapézio é: " + areaRetangulo);
+        float areaLosango = QuadrilaterosReturn.area(5f, 5f);
+        System.out.println("A área do Losango é: " + areaLosango);
+
+        // Execução da classe CARRO:
+        // Abaixo, INSTANCIAMOS um OBJETO e vincula/armazena os atributos à variável
+        // carro1
+        // Forma de INSTANCIAR sem passar parâmetro no CONSTRUTOR
+        Carro carro1 = new Carro();
+        carro1.setCor("Vermelho");
+        carro1.setModelo("Uno Turbo 1994");
+        carro1.setCapacidadeTanque(40);
+
+        // SOUT para exibição dos valores com o método GET:
+        System.out.println(carro1.getCor());
+        System.out.println(carro1.getModelo());
+        System.out.println(carro1.getCapacidadeTanque());
+        System.out.println(carro1.ValorTotalTanque(4.5));
+
+        // Forma de INSTANCIAR passaNDO parâmetro no CONSTRUTOR
+        Carro carro2 = new Carro("Vermelho", "Uno Turbo 1994", 40);
+
+        // SOUT para exibição dos valores com o método GET:
+        System.out.println(carro2.getCor());
+        System.out.println(carro2.getModelo());
+        System.out.println(carro2.getCapacidadeTanque());
+        System.out.println(carro2.ValorTotalTanque(4.5));
+
     }
 
 }

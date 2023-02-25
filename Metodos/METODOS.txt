@@ -1,8 +1,0 @@
-MÉTODOS - JAVA
-
-CONCEITO:
-É uma porção de código (sub-rotina) que é disponibilizada por uma classe e executada quando feita
-uma requisição. São responsáveis por definir e realizar um determinado comportamento.
-
-CRIAÇÃO (Padrão de definição):
-

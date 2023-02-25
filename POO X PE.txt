@@ -1,0 +1,72 @@
+PE (Programação Estruturada) X POO (Programação Orientada a Objetos)
+
+POO - O que é?
+É um paradigma de análise, projeto e programação de Sistema de Software, baseado na composição e 
+interação entre diversas unidades de software chamados objetos.
+
+FUNDAMENTOS DA POO:
+1 - ABSTRAÇÃO:
+Processo pelo qual se isolam as características de um objeto, considerando o que tenham em comum
+certos grupos de objetos (ESSENCIAIS e não as ACIDENTAIS), pode utilizar esse CONCEITO em vários
+pontos diferentes da aplicação (REUSO).
+
+2 - REUSO:
+Capacidade de criar novas unidades de código a partir de outras já existentes.
+
+3 - ENCAPSULAMENTO:
+Capacidade de esconder complexidades e proteger dados.
+
+CONCEITOS BÁSICOS DA OO (POO):
+- CLASSE: Estrutura que abstrai um conjunto de objetos com características similares. Define
+o comportamento desses objetos através de MÉTODOS e os estados possíveos desses objetos através de
+ATRIBUTOS. OU SEJA: Descreve SERVIÇOS dos objetos e informações que podem armazenar.
+Basicamente são: SUBSTANTIVOS, possuem NOMES SIGNIFICATIVOS (baseados no CONTEXTO DA CLASSE);
+
+* Em alguns casos, o contexto sobrepõe a ABSTRAÇÃO. EX: ALUNO é mais aplicável a um ESCOLA do que
+PESSOA.
+
+- ATRIBUTO: É o elemento de uma classe responsável por DEFINIR SUA ESTRUTURA DE DADOS. O conjunto
+desses atributos fará parte dos objetos criados a partir desta classe.  Serve para REPRESENTAR de
+forma mais REAL os conceitos aplicados à CLASSE. EX: CLASSE -> COR; MARCA; MODELO; ANO...
+(*) VARIÁVEL: Está sujeita à variação/mudanças. Enquanto o ATRIBUTO é próprio/peculiar a algo ou
+alguém.
+Basicamente são: Substantivos e adjetivos; Nomes significativos; contexto deve ser considerado;
+Abstração e Tipos Adequados (tipos de DADOS - String, Float, Int, Double...)
+
+- MÉTODO: É uma porção de código (sub-rotina) disponibilizada pela classe. Executada quando feita
+uma requisiaçao. Serve para identificar quais serviços/ações a classe oferece. Responsáveis por
+definir/realizar determinado comportamento.
+A criação de um método, PRINCIPALMENTE TEMOS: 
+VISIBILIDADE (public; private)
+RETORNO (void - sem retorno; Double, FLoat...)
+NOME (começando com letra minúscula e, em caso de palavra composta, as demais com 1ª maiúscula);
+PARÂMETROS (pode ser vazio, ou com o tipo - int; double; boolean; float...)
+
+* MÉTODO CONSTRUTOR: o NOME do CONSTRUTOR DEVE SER IGUAL ao nome da CLASSE, abre/fecha parêntese:
+class CARRO { Carro(){...} }
+
+* MÉTODO DESTRUTOR: Serve p/ LIMPAR a memória do computador p/ um objeto que não será utilizado.
+EX: class Carro {void FINALIZE() {...}} Neste caso é utilizado o "finalize" p/ evitar armazenagem
+
+
+MÉTODO DESTRUTOR
+
+- OBJETO:
+
+- MENSAGEM:
+
+
+
+ANTAGENS DA POO X PE:
+A PE Tem uma representação mais SIMPLISTA e, portanto limitada. Foca em Operações/Funções e no 
+"como fazer".
+A POO é mais REALISTA, foca em modelagem das entidades e nas interações entre elas, permitindo 
+maior ABSTRAÇÃO Foca mais no "o que fazer"
+
+VANTAGENS DA POO:
+- Melhor coesão: Seus itens são mais facilmente entrelaçados, trabalham em conjunto;
+- Melhor acoplamento: Podem ser alterados/melhorados, facilmente. melhor iteração com o ideal/real.
+- Diminuilao do GAP semântico: Maior representaçãp do MUNDO REAL X MUNDO SISTÊMICO.
+- Coletor de LIXO: Linguagens OOP tem mecanismos para limpeza da memória à medida em que evoluem.
+
+
