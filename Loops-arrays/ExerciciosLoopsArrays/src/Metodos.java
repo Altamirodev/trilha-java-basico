@@ -1,3 +1,5 @@
+// CLASSE GERAL para executar MÉTODOS COM SET e GET, com SOBERCARGA, POLIMORFISMO, HERANÇA e SOBRESCRITA
+//
 /*criar aplicação que resolva:
 1 - Calcular as 4 operações básicas: soma, subtração, multiplicação e divisão. Sempre 2 valores
 devem ser passados;
